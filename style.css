@@ -1,0 +1,58 @@
+/* Estilos generales de Mi Aplicación Web */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #16213e;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 3px solid #0f3460;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e94560;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #a0a0b0;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 4px solid #e94560;
+}
+
+section h2 {
+    color: #e94560;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #16213e;
+    color: #a0a0b0;
+    margin-top: 40px;
+}
